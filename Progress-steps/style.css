@@ -19,11 +19,17 @@
   color: white;
   margin-top: 2rem;
   cursor: pointer;
+}
+
+.btn:not(:last-child) {
   margin-right: 1rem;
 }
 
 .btn[disabled] {
   background: gray;
+}
+
+.btn[disabled]:not(:last-child) {
   margin-right: 1rem;
 }
 
