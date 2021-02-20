@@ -47,7 +47,7 @@ body {
 }
 
 .open {
-  background: url(../imgs/menu.svg);
+  background: url(./imgs/menu.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -55,10 +55,11 @@ body {
   position: absolute;
   left: 60%;
   top: 60%;
+  cursor: pointer;
 }
 
 .close {
-  background: url(../imgs/close.svg);
+  background: url(./imgs/close.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -68,6 +69,7 @@ body {
   top: 55%;
   transform: rotate(90deg);
   transform-origin: top left;
+  cursor: pointer;
 }
 
 .menu-links {
