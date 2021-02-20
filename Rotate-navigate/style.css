@@ -15,6 +15,10 @@ body {
   padding: 50px;
 }
 
+.content img {
+  max-width: 100%;
+}
+
 .container {
   transition: transform 0.4s linear;
   transform-origin: top left;
