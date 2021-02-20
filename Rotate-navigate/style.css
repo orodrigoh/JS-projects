@@ -47,7 +47,7 @@ body {
 }
 
 .open {
-  background: url(./imgs/menu.svg);
+  background: url("./imgs/menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -59,7 +59,7 @@ body {
 }
 
 .close {
-  background: url(./imgs/close.svg);
+  background: url("./imgs/close.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
