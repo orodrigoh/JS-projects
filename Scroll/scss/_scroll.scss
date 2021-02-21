@@ -1,0 +1,45 @@
+body {
+    background: #B87AFF;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    width: 300px;
+    height: 200px;
+    background: rgb(49, 47, 47);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.anima {
+    transform: translateX(-1000px);
+    transition: all 0.4s linear;
+}
+
+
+.anima:nth-of-type(even) {
+    transform: translateX(1000px);
+    transition: all 0.4s linear;
+}
+
+
+
+.ativo {
+    &.anima{
+        transform: translateX(0);
+    } 
+}
