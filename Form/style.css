@@ -101,6 +101,14 @@ body {
   transform: translateY(-30px);
 }
 
+.form-box input:valid {
+  outline: none;
+}
+
+.form-box input:valid + label span {
+  transform: translateY(-30px);
+}
+
 .form-box label {
   position: absolute;
   top: 25px;

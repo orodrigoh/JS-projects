@@ -39,13 +39,19 @@ padding: 1rem 0;
 color: gray;
 font-size: 1rem;
 
-    &:focus {
+    &:focus{
     outline: none;
-    & + label span {
-        transform: translateY(-30px);
+        & + label span {
+            transform: translateY(-30px);
+        }
     }
+    &:valid {
+        outline: none;
+            & + label span {
+                transform: translateY(-30px);
+            }
+        }
 
-    }
 }
 
 .form-box label {
