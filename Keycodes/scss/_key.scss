@@ -1,0 +1,35 @@
+body {
+    background: rgb(66, 127, 182);
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    width: 500px;
+    max-width: 100%;
+    padding: 1rem;
+    background: white;
+    color: gray;
+    border-radius: 15px;
+    box-shadow: 10px 10px 38px 1px rgba(0,0,0,0.6);
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.key, .code, .event {
+    background: rgb(85, 125, 212);
+    padding: 1rem;
+    width: 80px;
+    margin: 1rem 0;
+    color: black;
+    border-radius: 10px;
+}
