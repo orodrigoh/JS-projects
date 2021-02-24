@@ -1,0 +1,53 @@
+body {
+    background: rgb(66, 127, 182);
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    padding: 1rem;
+    width: 720px;
+    color: white;
+    text-align: center;
+
+}
+
+.choices {
+    margin: 1.5rem auto;
+    max-width: 100%;
+
+    & > textarea {
+        max-width: 100%;
+        width: 400px;
+        height: 200px;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        padding: 0.8rem;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.btn {
+    background: rgb(63, 88, 230);
+    max-width: 200px;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    &.ativo {
+    background: rgb(5, 25, 139);
+        
+    }
+}
+.itens {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
