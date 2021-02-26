@@ -8,7 +8,7 @@ const addCups = document.querySelectorAll('.add-cup');
 const bebeu = document.querySelector('.bebeu');
 
 
-slider.addEventListener('click', ()=> {
+slider.addEventListener('input', ()=> {
       const valor = slider.value*250/1000;
       litros.innerHTML = valor + ' Litros'
       faltaValor.innerHTML = valor + ' L'
